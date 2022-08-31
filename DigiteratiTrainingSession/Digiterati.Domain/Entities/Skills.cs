@@ -12,9 +12,11 @@ namespace Digiterati.Domain.Entities
     {
         [Key]
         [Column("skillId")]
-        public string SkillId { get; set; }
+        public int SkillId { get; set; }
 
         [Column("skillName")]
         public string SkillName { get; set; }
+
+        public ICollection<SkillMap> SkillMaps { get; set; }
     }
 }

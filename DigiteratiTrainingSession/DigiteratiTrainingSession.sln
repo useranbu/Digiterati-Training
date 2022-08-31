@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiterati.Api", "Digiterati.Api\Digiterati.Api.csproj", "{D90B9527-BD08-43F8-83D5-6B1714B1AD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digiterati.Data", "Digiterati.Data\Digiterati.Data.csproj", "{102FC6BA-F1CE-46BC-B7A6-4885D640E3DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiterati.Data", "Digiterati.Data\Digiterati.Data.csproj", "{102FC6BA-F1CE-46BC-B7A6-4885D640E3DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digiterati.Core", "Digiterati.Core\Digiterati.Core.csproj", "{167F7D15-8DFB-4212-8060-5E8852115EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiterati.Core", "Digiterati.Core\Digiterati.Core.csproj", "{167F7D15-8DFB-4212-8060-5E8852115EBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digiterati.Domain", "Digiterati.Domain\Digiterati.Domain.csproj", "{F8578185-E89A-43E5-A07D-7C4B7AC0EDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiterati.Domain", "Digiterati.Domain\Digiterati.Domain.csproj", "{F8578185-E89A-43E5-A07D-7C4B7AC0EDE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiterati.WebProject", "Digiterati.WebProject\Digiterati.WebProject.csproj", "{354903F6-397A-4941-9C7E-680706B3521B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D90B9527-BD08-43F8-83D5-6B1714B1AD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D90B9527-BD08-43F8-83D5-6B1714B1AD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D90B9527-BD08-43F8-83D5-6B1714B1AD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D90B9527-BD08-43F8-83D5-6B1714B1AD58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{102FC6BA-F1CE-46BC-B7A6-4885D640E3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{102FC6BA-F1CE-46BC-B7A6-4885D640E3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102FC6BA-F1CE-46BC-B7A6-4885D640E3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{F8578185-E89A-43E5-A07D-7C4B7AC0EDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8578185-E89A-43E5-A07D-7C4B7AC0EDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8578185-E89A-43E5-A07D-7C4B7AC0EDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354903F6-397A-4941-9C7E-680706B3521B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354903F6-397A-4941-9C7E-680706B3521B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354903F6-397A-4941-9C7E-680706B3521B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354903F6-397A-4941-9C7E-680706B3521B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

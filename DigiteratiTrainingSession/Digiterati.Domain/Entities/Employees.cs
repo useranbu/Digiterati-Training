@@ -45,5 +45,7 @@ namespace Digiterati.Domain.Entities
         [Column("profileId")]
         public int? ProfileId { get; set; }
 
+        public ICollection<SkillMap> SkillMaps { get; set; }
+        public ICollection<Softlock> SoftLocks { get; set; }
     }
 }

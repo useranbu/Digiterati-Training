@@ -13,9 +13,10 @@ namespace Digiterati.Domain.Entities
         [Key]
         [Column("employeeId")]
         public int EmployeeID { get; set; }
-
+        public Employees? Employees { get; set; }
         [Column("skillId")]
         public int SkillId { get; set; }
+        public Skills? Skills { get; set; }
 
     }
 }
