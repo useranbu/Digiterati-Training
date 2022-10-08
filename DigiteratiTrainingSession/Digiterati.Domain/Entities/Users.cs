@@ -11,6 +11,8 @@ namespace Digiterati.Domain.Entities
     public class Users
     {
         [Key]
+        [Column("id")]
+        public int Id { get; set; }
         [Column("userName")]
         public string UserName { get; set; }
 

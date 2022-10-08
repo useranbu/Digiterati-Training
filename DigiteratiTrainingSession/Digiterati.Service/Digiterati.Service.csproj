@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Digiterati.Domain\Digiterati.Domain.csproj" />
+    <ProjectReference Include="..\Digiterati.Core\Digiterati.Core.csproj" />
+    <ProjectReference Include="..\Digiterati.Data\Digiterati.Data.csproj" />
   </ItemGroup>
 
 </Project>
