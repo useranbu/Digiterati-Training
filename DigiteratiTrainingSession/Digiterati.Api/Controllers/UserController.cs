@@ -16,8 +16,8 @@ namespace Digiterati.Api.Controllers
             _userService = userService;
         }
 
-        [HttpPost("authenticate")]
-        public IActionResult Authenticate(AuthenticateRequest model)
+        [HttpGet("authenticate")]
+        public IActionResult Authenticate([FromQuery] AuthenticateRequest model)
         {
             var response = _userService.Authenticate(model);
 

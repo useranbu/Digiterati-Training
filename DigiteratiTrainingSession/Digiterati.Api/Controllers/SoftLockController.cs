@@ -35,20 +35,5 @@ namespace Digiterati.Api.Controllers
             return new OkObjectResult(softLock);
         }
 
-        [HttpPut, Route("UpdateSoftLock")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Softlock))]
-        public async Task<IActionResult> UpdateSoftLock(SoftLockDto softLock)
-        {
-            var result = await _softLockService.UpdateSoftLock(softLock);
-            return new OkObjectResult(result);
-        }
-
-        [HttpPut, Route("DeleteSoftLock")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Softlock))]
-        public async Task<IActionResult> DeleteSoftLock(int LockId)
-        {
-            var result = await _softLockService.DeleteSoftLock(LockId);
-            return new OkObjectResult(result);
-        }
     }
 }
